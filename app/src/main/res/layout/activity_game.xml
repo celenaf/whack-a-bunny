@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gamebackground">
 
-    <ImageView
+    <Button
         android:id="@+id/Button1"
         android:layout_width="113dp"
         android:layout_height="108dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.131" />
 
-    <ImageView
+    <Button
         android:id="@+id/Button2"
         android:layout_width="113dp"
         android:layout_height="109dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.132" />
 
-    <ImageView
+    <Button
         android:id="@+id/Button3"
         android:layout_width="113dp"
         android:layout_height="108dp"
@@ -92,7 +92,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.919" />
 
-    <ImageView
+    <Button
         android:id="@+id/Button4"
         android:layout_width="113dp"
         android:layout_height="108dp"
@@ -103,7 +103,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414" />
 
-    <ImageView
+    <Button
         android:id="@+id/Button5"
         android:layout_width="113dp"
         android:layout_height="108dp"
@@ -118,7 +118,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414" />
 
-    <ImageView
+    <Button
         android:id="@+id/Button6"
         android:layout_width="113dp"
         android:layout_height="108dp"
@@ -129,7 +129,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414" />
 
-    <ImageView
+    <Button
         android:id="@+id/Button7"
         android:layout_width="113dp"
         android:layout_height="108dp"
@@ -140,7 +140,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.682" />
 
-    <ImageView
+    <Button
         android:id="@+id/Button8"
         android:layout_width="113dp"
         android:layout_height="108dp"
@@ -151,7 +151,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.682" />
 
-    <ImageView
+    <Button
         android:id="@+id/Button9"
         android:layout_width="113dp"
         android:layout_height="108dp"

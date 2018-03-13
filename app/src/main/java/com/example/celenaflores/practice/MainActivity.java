@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view){
                 //create new intent
                 Intent i=new Intent(MainActivity.this, GameActivity1.class);
-                //start easy activity
+                //start hard activity
                 startActivity(i);
 
             }

@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import java.util.Random;
+import android.media.MediaPlayer;
 
 /**
  * Created by celee on 3/7/18.
@@ -42,6 +43,8 @@ public class GameActivity1 extends AppCompatActivity {
 
         //initialize variables
         start_button = (Button) findViewById(R.id.start_button);
+
+        final MediaPlayer whackBunny = MediaPlayer.create(this, R.raw.whack);
 
         randomBunny = new Random();
 
@@ -104,12 +107,14 @@ public class GameActivity1 extends AppCompatActivity {
         //not remove a life
         //change image to a sad bunny because it was hit
         //not enable it after so a new bunny can pop up
+        //play whack sound when bunny is hit
 
         bunny1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 tempiflives = 1;
                 bunny1.setImageResource(R.drawable.p_hit);
+                whackBunny.start();
                 score = score + 1;
                 score_TextView.setText("Score: " + score);
                 bunny1.setEnabled(false);
@@ -121,6 +126,7 @@ public class GameActivity1 extends AppCompatActivity {
             public void onClick(View view) {
                 tempiflives = 1;
                 bunny2.setImageResource(R.drawable.p_hit);
+                whackBunny.start();
                 score = score + 1;
                 score_TextView.setText("Score: " + score);
                 bunny2.setEnabled(false);
@@ -132,6 +138,7 @@ public class GameActivity1 extends AppCompatActivity {
             public void onClick(View view) {
                 tempiflives = 1;
                 bunny3.setImageResource(R.drawable.p_hit);
+                whackBunny.start();
                 score = score + 1;
                 score_TextView.setText("Score: " + score);
                 bunny3.setEnabled(false);
@@ -143,6 +150,7 @@ public class GameActivity1 extends AppCompatActivity {
             public void onClick(View view) {
                 tempiflives = 1;
                 bunny4.setImageResource(R.drawable.p_hit);
+                whackBunny.start();
                 score = score + 1;
                 score_TextView.setText("Score: " + score);
                 bunny4.setEnabled(false);
@@ -154,6 +162,7 @@ public class GameActivity1 extends AppCompatActivity {
             public void onClick(View view) {
                 tempiflives = 1;
                 bunny5.setImageResource(R.drawable.p_hit);
+                whackBunny.start();
                 score = score + 1;
                 score_TextView.setText("Score: " + score);
                 bunny5.setEnabled(false);
@@ -165,6 +174,7 @@ public class GameActivity1 extends AppCompatActivity {
             public void onClick(View view) {
                 tempiflives = 1;
                 bunny6.setImageResource(R.drawable.p_hit);
+                whackBunny.start();
                 score = score + 1;
                 score_TextView.setText("Score: " + score);
                 bunny6.setEnabled(false);
@@ -176,6 +186,7 @@ public class GameActivity1 extends AppCompatActivity {
             public void onClick(View view) {
                 tempiflives = 1;
                 bunny7.setImageResource(R.drawable.p_hit);
+                whackBunny.start();
                 score = score + 1;
                 score_TextView.setText("Score: " + score);
                 bunny7.setEnabled(false);
@@ -187,6 +198,7 @@ public class GameActivity1 extends AppCompatActivity {
             public void onClick(View view) {
                 tempiflives = 1;
                 bunny8.setImageResource(R.drawable.p_hit);
+                whackBunny.start();
                 score = score + 1;
                 score_TextView.setText("Score: " + score);
                 bunny8.setEnabled(false);
@@ -198,6 +210,7 @@ public class GameActivity1 extends AppCompatActivity {
             public void onClick(View view) {
                 tempiflives = 1;
                 bunny9.setImageResource(R.drawable.p_hit);
+                whackBunny.start();
                 score = score + 1;
                 score_TextView.setText("Score: " + score);
                 bunny9.setEnabled(false);

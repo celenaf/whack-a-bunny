@@ -10,5 +10,5 @@
     <string name="title_label">Get the Bunny!</string>
     <string name="try_again_label">TRY AGAIN</string>
     <string name="exit_label">EXIT</string>
-    <string name="game_over_label">Better Luck Next Time!</string>
+    <string name="game_over_label">GAME OVER!</string>
 </resources>
